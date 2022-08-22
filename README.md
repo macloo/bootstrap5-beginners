@@ -20,4 +20,19 @@ Starter code for using Bootstrap 5. Links and code are specific to version 5.2.0
 — *Responsive* column classes have this format: `col-md-2`<br>
 — More than one *responsive* column class can be applied to one HTML element in this way: `class="col-xl-1 col-md-2"`
 
+**NOTE** that rows (elements that have the `row` class) are essential when you use columns. Group the column elements inside a row element. Use as many separate row elements as you need. Rows are independent of one another and can be styled quite differently from one another.
+
+```
+row 1
+column  column  column
+
+row 2
+column  column
+
+row 3
+column  column  column  column  column
+```
+
+Columns can be wide or narrow. The maximum number of columns in any one row is 12. *rows_columns4.html* shows a row with 12 columns.
+
 .
