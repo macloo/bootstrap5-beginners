@@ -8,7 +8,7 @@ Here are descriptions of the files in this repo:
 
 ## Basic pages
 
-1. *basic_page.html* – A copy of the Bootstrap “getting started” example using CDN links. Addition: One DIV element with the Bootstrap `container` class applied to it. This is an easy template to copy and use when you start a new page using Bootstrap.
+1. *basic_page.html* – A copy of the Bootstrap “getting started” example using CDN links. Addition: One DIV element with the Bootstrap `container` class applied to it. **This is an easy template to copy** and use when you start a new page using Bootstrap.
 
 2. *basic_page2.html* – Same as the previous example, but with a background color added to the container element so it’s easier to see how it changes at different browser widths.
 
