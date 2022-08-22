@@ -2,7 +2,7 @@
 
 Starter code for using Bootstrap 5. Links and code are specific to version 5.2.0.
 
-[Live versions of these pages are here.](http://macloo.github.io/bootstrap5-beginners/)
+[Live versions of these pages are here.](https://macloo.github.io/bootstrap5-beginners/)
 
 Here are descriptions of the files in this repo:
 
