@@ -45,6 +45,6 @@ Columns can be wide or narrow. The maximum number of columns in any one row is 1
 
 2. *images.html* — Responsive images in Bootstrap are easy, adding one class inside the IMG tag.
 
-3. How to use the Bootstrap button styles.
+3. *buttons.html* — How to use the Bootstrap button styles. How to use buttons to open new pages or add interactivity to your pages.
 
 .
