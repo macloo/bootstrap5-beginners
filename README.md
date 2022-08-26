@@ -39,4 +39,12 @@ column  column  column  column  column
 
 Columns can be wide or narrow. The maximum number of columns in any one row is 12. *rows_columns4.html* shows a row with 12 columns.
 
+## Google fonts, responsive images, Bootstrap buttons
+
+1. *goog_fonts.html* — How to add Google fonts to your Bootstrap pages, replacing the default Bootstrap fonts.
+
+2. *images.html* — Responsive images in Bootstrap are easy, adding one class inside the IMG tag.
+
+3. How to use the Bootstrap button styles.
+
 .
