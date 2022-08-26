@@ -1,0 +1,13 @@
+/* specs for TWO Google fonts */
+body {
+  font-family: 'Cormorant Garamond', serif;
+}
+h1, h2 {
+  font-family: 'Cherry Cream Soda', sans-serif;
+}
+
+/* one custom style */
+.highlighter { background: #fcf005; }
+
+
+/* note that all Google fonts used must ALSO be linked in the HTML head */

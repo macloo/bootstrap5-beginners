@@ -28,23 +28,34 @@
 
       <h1>Google Fonts with Bootstrap</h1>
 
-      <p class="fs-4"><span class="highlighter">To change the font for everything,</span> you'll need to specify the font change for the BODY element.</p>
+      <!-- class="fs-4" is used to make the font-size LARGER -->
 
-      <p class="fs-4">To change the font <span class="highlighter">for individual element types, such as H1 and H2,</span> specify the font change for those specific elements.</p>
+      <p class="fs-4">This page looks different from other pages in this Bootstrap-based project because I have added <a href="https://fonts.google.com/">Google fonts</a> to the page, replacing the font defaults built into Bootstrap.</p>
 
-      <h2>Option 1: Styles in the document HEAD</h2>
+      <ul>
+      <li class="fs-4"><span class="highlighter">To change the font for <em>everything,</em></span> you'll need to specify the font change for the BODY element.</li>
+      <li class="fs-4">To change the font <span class="highlighter">for individual element types, such as H1 and H2,</span> specify the font change for those specific elements.</li>
+      </ul>
 
-      <p class="fs-4">You're not going to have much custom CSS when Bootstrap is doing all the work, so it's acceptable to write your CSS for the fonts directly into the HEAD, between <code>&lt;style&gt;</code> and <code>&lt;/style&gt;</code>.</p>
+      <p class="fs-4">This page uses the font Cormorant Garamond for everything (BODY) and the font Cherry Cream Soda for H1 and H2 headings.</p>
+
+      <h2 class="pt-3">Option 1: Styles in the document HEAD</h2>
+
+      <p class="fs-4">You're not going to have much custom CSS when Bootstrap is doing all the work, so it's acceptable to write your CSS for the fonts directly into the HEAD, between <code>&lt;style&gt;</code> and <code>&lt;/style&gt;</code>. This is illustrated below with the code for <em>this page.</em></p>
 
       <img class="img-fluid my-4" src="images/goog_fonts_code.png" alt="code for adding Google fonts with Bootstrap CSS">
 
-      <p class="fs-4">It's necessary for this code to come <em>after</em> the LINK element that references the main Bootstrap CSS file. This is true whether you're using the Bootstrap CDN or a downloaded file.</p>
+      <p class="fs-4"><span class="highlighter">It is necessary for this code to come <em>after</em> the LINK element that references the main Bootstrap CSS file.</span> This is true whether you're using the Bootstrap CDN or a downloaded file. First the page loads the Bootstrap CSS, and then <em>afterward</em> it loads your custom CSS styles.</p>
 
-      <h2>Option 2: In a separate CSS file</h2>
+      <h2 class="pt-3">Option 2: Styles in a separate CSS file</h2>
 
+      <p class="fs-4">If you're making a multi-page project, it's best to create a separate stylesheet for your custom styles &mdash; because if you decide to change something, you change it just in that one file, and it will affect all the pages. This is illustrated below, where the CSS file is named <em>main.css,</em> and it is inside a folder named <em>css.</em></p>
 
+      <img class="img-fluid my-4" src="images/goog_fonts_code2.png" alt="code for adding Google fonts with Bootstrap CSS">
 
-      <p class="fs-4">It's necessary for this LINK element to come <em>after</em> the LINK element that references the main Bootstrap CSS file. This is true whether you're using the Bootstrap CDN or a downloaded file. You'll have two LINK elements in the HEAD. The first must be the main Bootstrap file.</p>
+      <p class="fs-4">It's necessary for your custom CSS file's LINK element to come <em>after</em> the LINK element that references the main Bootstrap CSS file. This is true whether you're using the Bootstrap CDN or a downloaded file. You'll have two LINK elements in the HEAD. <span class="highlighter">The <em>first LINK element</em> must reference the main Bootstrap file.</span></p>
+
+      <p class="fs-4 pb-4">Note that the <span class="fw-bolder">three Google font LINK elements</span> must <em>precede</em> your custom CSS file's LINK element.</p>
 
 
         </div><!-- column -->
