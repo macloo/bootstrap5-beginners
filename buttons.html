@@ -23,7 +23,7 @@
 
       <p>Bootstrap button styles can be added to many different HTML elements, but the most common ones are BUTTON and INPUT.</p>
 
-              <button class="btn btn-info">some text here</button>
+              <button class="btn btn-info" type="button">some text here</button>
 
               <input class="btn btn-info" type="submit" value="some text here">
 
@@ -34,13 +34,13 @@
       <p><strong>Important:</strong> If you want a button to simply take the user to a new page, you can apply the Bootstrap button classes to an A element with an HREF attribute:<br>
       <code>&lt;a href="index.html" class="btn btn-info"&gt;Click Me&lt;/a&gt;</code></p>
 
-              <a href="index.html" class="btn btn-info">Click Me</a>
+              <a href="index.html" class="btn btn-info" role="button">Click Me</a>
 
       <p class="mt-4">The button above will open the Index page of this document set. Use the browser's Back button to return to this page.</p>
 
       <p>Another common thing you'll want to do with a button is to <strong>open some kind of interactive element</strong> without leaving the current page. To do that, you'll need JavaScript to monitor the page and respond when the button is clicked.</p>
 
-          <button class="btn btn-info" id="hide">Hide Everything</button>
+          <button class="btn btn-info" id="hide" type="button">Hide Everything</button>
 
       <p class="mt-4"><span class="highlighter">Click the button above.</span> You can view source on this page to see the JavaScript that makes it work. I'm using the Bootstrap class <code>visually-hidden</code> to hide a row (<a href="https://getbootstrap.com/docs/5.2/helpers/visually-hidden/">learn more</a>). You can also see <a href="https://gist.github.com/macloo/b9c0e617ec8d5bf1258587f55c121b7f">a commented version of the JavaScript</a>. It can be messy to try to hide a <em>column</em> inside a row, but hiding <em>an entire row</em> usually works cleanly and well.</p>
 
@@ -54,7 +54,7 @@
         <div class="col-lg-8">
           <!-- one column and one row here -->
 
-          <button class="btn btn-info" id="show">Show Everything</button>
+          <button class="btn btn-info" id="show" type="button">Show Everything</button>
 
         </div><!-- column -->
       </div><!-- row -->
